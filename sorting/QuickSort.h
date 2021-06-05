@@ -2,7 +2,7 @@
 #include<iostream>
 
 template<typename T>
-size_t partition(T arr[], int low, int high)
+int partition(T arr[], int low, int high)
 {
     T pivot = arr[high];
     int i = (low - 1);
